@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorted Arrays</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        
+        flex-direction: column;
+        padding: 10px;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+
+      .sorted-array {
+        width: 500px;
+        padding: 11px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #131212;
+        color: #ccc;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .unsorted-array {
+        display: flex;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="unsorted-array" id="unsorted-array"></div>
+    <div class="container">
+      <div class="sorted-array" id="bubble-sorted-array"></div>
+      <div class="sorted-array" id="selection-sorted-array"></div>
+      <div class="sorted-array" id="merge-sorted-array"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
